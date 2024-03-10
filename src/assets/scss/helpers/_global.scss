@@ -1,5 +1,5 @@
 body {
-	font-family: var(--ff-primary);
+	font-family: var(--font-family);
 	font-size: 16px;
 	font-weight: 400;
 
@@ -21,7 +21,7 @@ body {
 
 .container {
 	--container-padding: 20px;
-	--container-width: 1160px;
+	--container-width: 1480px;
 
 	margin-inline: auto;
 
@@ -53,7 +53,7 @@ body {
 	position: relative;
 
 	&::before {
-		content: "";
+		content: '';
 
 		position: absolute;
 		bottom: -6px;
@@ -101,7 +101,7 @@ body {
 		position: absolute;
 		z-index: 0;
 		border-radius: 50%;
-		background-color: var(--nobel);
+		background-color: rgba(145, 141, 141, 0.5);
 		animation: ripple 0.8s linear;
 		pointer-events: none;
 		translate: -50% -50%;
